@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp"
+    tools:context=".ui.activity.Done">
+
+    <ImageView
+        android:id="@+id/left"
+        android:src="@drawable/left_arrow"
+        android:layout_marginTop="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/group"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/txtScore"
+            android:textColor="@android:color/black"
+            android:textSize="30sp"
+            android:text="Score : 100"
+            android:paddingTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txtCorrectAnswer"
+            android:textColor="@android:color/black"
+            android:textSize="30sp"
+            android:text="Passed : 100"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnTry"
+        android:layout_below="@+id/group"
+        android:text="TRY AGAIN"
+        android:textColor="@android:color/white"
+        android:background="@drawable/gradientbackground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnHome"
+        android:layout_below="@+id/btnTry"
+        android:text="Home"
+        android:textColor="@android:color/black"
+        android:background="@drawable/btn_answer_background"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

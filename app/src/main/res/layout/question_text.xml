@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_weight="3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/Question"
+        android:text="Which of These horror films features a demonic clown ?"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:padding="3dp"
+        android:layout_weight="1.2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textColor="#2C2C2C"/>
+
+    <LinearLayout
+        android:layout_weight="1.8"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <Button
+            android:id="@+id/JawabanA"
+            android:text="Jawaban A"
+            android:textColor="@android:color/black"
+            android:layout_weight="1"
+            android:background="@drawable/btn_answer_background"
+            android:layout_margin="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+
+        <Button
+            android:id="@+id/JawabanB"
+            android:text="Jawaban B"
+            android:textColor="@android:color/black"
+            android:layout_weight="1"
+            android:background="@drawable/btn_answer_background"
+            android:layout_margin="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+
+        <Button
+            android:id="@+id/JawabanC"
+            android:text="Jawaban C"
+            android:textColor="@android:color/black"
+            android:layout_weight="1"
+            android:background="@drawable/btn_answer_background"
+            android:layout_margin="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+
+        <Button
+            android:id="@+id/JawabanD"
+            android:text="Jawaban D"
+            android:textColor="@android:color/black"
+            android:layout_weight="1"
+            android:background="@drawable/btn_answer_background"
+            android:layout_margin="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

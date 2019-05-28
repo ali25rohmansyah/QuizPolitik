@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#03A9F4</color>-->
+    <!--<color name="colorPrimaryDark">#03A9F4</color>-->
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="textHint">#838181</color>
+
+    <color name="textBottom">#6b6b76</color>
+
+
+
+    <color name="baseReleaseColor">#212121</color>
+    <color name="basePressColor">#FAFAFA</color>
+    <color name="ballReleaseColor">#9e9e9e</color>
+
+    <color name="text">#303030</color>
+
+    <color name="purple">#540d86</color>
+
+    <color name="skyblue">#aed8ff</color>
+    <color name="blue">#4A64BE</color>
+
+    <color name="grayLight">#fafafa</color>
+    <color name="starBlue">#09c6df</color>
+    <color name="endBlue">#0bcce6</color>
+    <color name="primaryDark">#292b3d</color>
+
+    <!--<color name="darkbl">#03A9F4</color>-->
+</resources>

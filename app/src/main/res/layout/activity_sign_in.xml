@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rootLayout"
+    tools:context=".ui.activity.SignIn">
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edtUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            android:inputType="textEmailAddress"
+            android:text="qwerty"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+            android:textSize="20sp"
+
+            app:met_baseColor="@color/colorPrimary"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/colorPrimary"
+            app:met_singleLineEllipsis="true" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edtPassword"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+            android:textSize="20sp"
+            android:text="qwerty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            app:met_singleLineEllipsis="true"
+            app:met_baseColor="@color/colorPrimary"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/colorPrimary"/>
+
+    </LinearLayout>
+    <com.rey.material.widget.CheckBox
+        android:layout_below="@id/l1"
+        android:id="@+id/ckbRemember"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Material.Drawable.CheckBox"
+        android:text="  Remember me"
+        android:gravity="center_vertical"
+        android:textColor="@android:color/black"
+        app:cbd_strokeColor ="@color/textHint"
+        android:textSize="12sp"
+        app:cbd_tickColor="@color/textHint" />
+
+    <TextView
+        android:layout_below="@id/l1"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account ?"
+        android:layout_alignParentEnd="true"
+        android:paddingEnd="50dp"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:layout_below="@id/l1"
+        android:textColor="@color/starBlue"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="showRegisterDialog"
+        android:text="Register"
+        android:layout_alignParentEnd="true"
+        android:textSize="12sp"/>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_margin="30dp"
+        android:layout_below="@id/ckbRemember"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_login_background"
+        android:text="Login"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:textAllCaps="false"
+        android:textSize="20sp"/>
+
+    <ProgressBar
+        android:layout_margin="30dp"
+        android:layout_below="@id/ckbRemember"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

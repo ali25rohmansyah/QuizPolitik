@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "848842739180",
+    "firebase_url": "https://quizpolitik.firebaseio.com",
+    "project_id": "quizpolitik",
+    "storage_bucket": "quizpolitik.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:848842739180:android:d01c4fe5db5ce961",
+        "android_client_info": {
+          "package_name": "com.example.quizpolitik"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "848842739180-r1rpq5kp7f2nht09qms01vjkr4seftfc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.quizpolitik",
+            "certificate_hash": "622737897d20296a80ae3080a0bd5ae17f513163"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCE7GMD3M4XakVTINvTFAmMZ2vIzmI84S8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "848842739180-vnmnpmnj38jr4ir4akfgji2bgla9r14q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
