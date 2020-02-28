@@ -2,7 +2,7 @@
 Aplikasi Quiz bertemakan politik
 
 ![Splash Screen](https://i.imgur.com/d2WwmBo.png?raw=true "")
-![Splash Screen](https://imgur.com/CJ1Ifl1?raw=true "")
+![Splash Screen](https://i.imgur.com/CJ1Ifl1?raw=true "")
 ![Splash Screen](https://imgur.com/ExqkkXP?raw=true "")
 ![Splash Screen](https://imgur.com/MvEyDnF?raw=true "")
 ![Splash Screen](https://imgur.com/ceKlmyk?raw=true "")
