@@ -9,5 +9,5 @@ Aplikasi Quiz bertemakan politik
 ![Splash Screen](https://imgur.com/A601wWn?raw=true "")
 ![Splash Screen](https://imgur.com/zTbB8y4?raw=true "")
 ![Splash Screen](https://imgur.com/OR6bEHR?raw=true "")
-![Splash Screen](https://imgur.com/FQIlPt0?raw=true "")
-![Splash Screen](https://imgur.com/rOwIAQA?raw=true "")
+![Splash Screen](https://i.imgur.com/CJghHAc.png?raw=true "")
+![Splash Screen](https://i.imgur.com/rOwIAQA.png?raw=true "")
