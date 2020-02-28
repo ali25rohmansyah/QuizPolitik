@@ -4,6 +4,8 @@ Aplikasi Quiz bertemakan politik
 
 
 Tampilan :
+
+
 ![Splash Screen](https://i.imgur.com/d2WwmBo.png?raw=true "")
 ![Splash Screen](https://i.imgur.com/CJ1Ifl1.png?raw=true "")
 ![Splash Screen](https://i.imgur.com/ExqkkXP.png?raw=true "")
