@@ -1,18 +1,6 @@
 # QuizPolitik
-Deskripsi :
 Aplikasi Quiz bertemakan politik
 
+# Tampilan Program
 
-Tampilan :
-
-
-![Splash Screen](https://i.imgur.com/d2WwmBo.png?raw=true "")
-![Splash Screen](https://i.imgur.com/CJ1Ifl1.png?raw=true "")
-![Splash Screen](https://i.imgur.com/ExqkkXP.png?raw=true "")
-![Splash Screen](https://i.imgur.com/MvEyDnF.jpg?raw=true "")
-![Splash Screen](https://i.imgur.com/p3swUnq.jpg?raw=true "")
-![Splash Screen](https://i.imgur.com/A601wWn.png?raw=true "")
-![Splash Screen](https://i.imgur.com/zTbB8y4.png?raw=true "")
-![Splash Screen](https://i.imgur.com/OR6bEHR.png?raw=true "")
-![Splash Screen](https://i.imgur.com/CJghHAc.png?raw=true "")
-![Splash Screen](https://i.imgur.com/rOwIAQA.png?raw=true "")
+![Banner – 3](https://user-images.githubusercontent.com/39235653/80343017-5ff7d600-888f-11ea-954b-b47263a76c50.png)
